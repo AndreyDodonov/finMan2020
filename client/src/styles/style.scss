@@ -194,22 +194,37 @@ caption {
   justify-content: center;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 6px 7px 5px -2px rgba(0,0,0,0.45);
+   input {
+     margin-top: 40px;
+     border:none;
+     border-bottom: 1px #212121 solid;
+   }
 }
 
 .auth__buttons {
   margin-top: 20px;
    button {
-     @include button
+     @include button;
+     &:first-child {
+       margin-right: 20px;
+     }
    }
 }
 
 .auth__buttons-login {
   background-color: #00e676;
   margin-right: 10px;
+  &:hover, &:focus {
+    background-color: #69f0ae;
+  }
 }
 
 .auth__buttons-signin {
   background-color: #ff8f00;
+  &:hover,  &:focus  {
+    background-color: #ffa32e;
+  }
 }
 
 

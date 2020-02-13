@@ -1,6 +1,6 @@
 import React from "react";
 import {Statistics} from "./pages/Statistics";
-import Game from "./pages/Game/Game";
+import IncomePage from "./pages/IncomePage/IncomePage";
 import {AuthPage} from "./pages/AuthPage";
 import {Switch} from "react-router-dom";
 import {Route} from "react-router-dom";
@@ -14,10 +14,10 @@ export const useRoutes = isAuthenticated => {
                 <Route path="/links" exact>
                     <Statistics/>
                 </Route>
-                <Route path="/game" exact>
-                    <Game/>
+                <Route path="/income" exact>
+                    <IncomePage/>
                 </Route>
-                <Redirect to="/game"/>
+                <Redirect to="/income"/>
             </Switch>
         )
     }

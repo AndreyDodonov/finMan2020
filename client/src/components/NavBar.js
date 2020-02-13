@@ -35,7 +35,7 @@ export const Navbar = () => {
             <div className="nav-wrapper blue darken-1">
                 <span className="brand-logo">TicTac Toe</span>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><NavLink to="/game">Game</NavLink></li>
+                    <li><NavLink to="/game">IncomePage</NavLink></li>
                     <li><NavLink to="/links">Statistics</NavLink></li>
                     <li><a href="/" onClick={logoutHandler}>Logout</a></li>
                 </ul>

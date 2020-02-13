@@ -568,6 +568,12 @@ caption {
   justify-content: center;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 6px 7px 5px -2px rgba(0, 0, 0, 0.45);
+}
+.auth__card input {
+  margin-top: 40px;
+  border: none;
+  border-bottom: 1px #212121 solid;
 }
 
 .auth__buttons {
@@ -578,14 +584,23 @@ caption {
   border: none;
   border-radius: 3px;
 }
+.auth__buttons button:first-child {
+  margin-right: 20px;
+}
 
 .auth__buttons-login {
   background-color: #00e676;
   margin-right: 10px;
 }
+.auth__buttons-login:hover, .auth__buttons-login:focus {
+  background-color: #69f0ae;
+}
 
 .auth__buttons-signin {
   background-color: #ff8f00;
+}
+.auth__buttons-signin:hover, .auth__buttons-signin:focus {
+  background-color: #ffa32e;
 }
 
 /*# sourceMappingURL=style.css.map */
