@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Leftbar} from "../../components/Leftbar";
 
 import '../../styles/style.css';
 
@@ -15,7 +16,8 @@ class IncomePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="main__content">
+                <Leftbar/>
                 <section className="income main__section">
                     <h1 className="income__header">
                         Income
