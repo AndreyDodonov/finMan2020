@@ -1,0 +1,17 @@
+// buttons
+@mixin button__ok {
+  background-color: #388e3c;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+@mixin button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+// inputs
+
+
