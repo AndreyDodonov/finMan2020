@@ -1,6 +1,6 @@
 const {Router} = require('express');
 const router = Router();
-const controller = require('../controller/stats.controller');
+const controller = require('../controller/income.controller');
 const auth = require('../middleware/auth.middleware');
 
 router.get('/', auth, controller.getAll);

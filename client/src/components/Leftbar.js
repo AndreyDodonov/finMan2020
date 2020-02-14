@@ -1,16 +1,8 @@
-import React, {useContext} from 'react';
-import {NavLink, useHistory} from "react-router-dom";
-import {AuthContext} from "../context/AuthContext";
+import React from 'react';
+import {NavLink} from "react-router-dom";
 import '../styles/style.css';
 
 export const Leftbar = () => {
-    // const history = useHistory();
-    // const auth = useContext(AuthContext);
-    // const logoutHandler = event => {
-    //     event.preventDefault();
-    //     auth.logout();
-    //     history.push('/');
-    // };
 
     return (
         <nav className="leftbar">
