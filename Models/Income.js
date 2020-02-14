@@ -1,4 +1,4 @@
-const {Schema, Types} = require('mongoose');
+const {Schema, model, Types} = require('mongoose');
 
 /**
  * @description
@@ -21,4 +21,4 @@ const schema = new Schema ({
     owner: {type: Types.ObjectId, ref: 'User'}
 });
 
-module.exports = mongoose.model('Stats', schema);
+module.exports = model('Stats', schema);
