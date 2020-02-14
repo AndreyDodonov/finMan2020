@@ -4,6 +4,6 @@
 
 #### Work in progress ⚒
 
-[👉 Демо здесь 👈]( https://radiant-ocean-71136.herokuapp.com/ "Необязательная подсказка")
+[👉 Demo is here 👈]( https://finman2020.herokuapp.com/ "Click ))")
 
 
