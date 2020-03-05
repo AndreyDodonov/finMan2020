@@ -15,7 +15,7 @@ WIP
 
 🚱 (:non-potable_water:) when plugging memory leaks
 
-📝 (:memo:) when writing docs
+📝 (:memo:) when writing docs 
 
 🐧 (:penguin:) when fixing something on Linux
 
