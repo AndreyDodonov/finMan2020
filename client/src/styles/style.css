@@ -485,6 +485,7 @@ h1 {
 .auth__login {
   width: 454px;
   background-color: #E0E0E0;
+  position: relative;
 }
 
 .auth__label {
@@ -558,7 +559,9 @@ h1 {
 }
 
 .auth__sign {
-  margin: 300px auto 0;
+  margin: 0 auto 36px;
+  position: absolute;
+  bottom: 0;
   width: 300px;
 }
 .auth__sign h2 {

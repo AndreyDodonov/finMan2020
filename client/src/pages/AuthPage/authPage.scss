@@ -9,6 +9,7 @@
 .auth__login {
   width: 454px;
   background-color: $bg-gray;
+  position: relative;
 }
 
 .auth__label {
@@ -79,7 +80,9 @@
 }
 
 .auth__sign {
-  margin: 300px auto 0;
+  margin: 0 auto 36px;
+  position: absolute;
+  bottom: 0;
   width: 300px;
   h2 {
     @include fm-h2;
