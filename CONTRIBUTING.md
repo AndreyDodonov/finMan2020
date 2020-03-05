@@ -9,35 +9,39 @@ WIP
 - When only changing documentation, include [ci skip] in the commit title
 - Consider starting the commit message with an applicable emoji:
 
-✏ (:pen:) when improving the format/structure of the code
+:pen: when improving the format/structure of the code
 
-🐎 (:racehorse:) when improving performance
+:racehorse: when improving performance
 
-🚱 (:non-potable_water:) when plugging memory leaks
+:hammer: when add logic
 
-📝 (:memo:) when writing docs 
+:iphone: when add adaptive to phones/tablets
 
-🐧 (:penguin:) when fixing something on Linux
+:non-potable_water: when plugging memory leaks
 
-🍎 (:apple:) when fixing something on macOS
+:memo: when writing docs 
 
-🏁 (:checkered_flag:) when fixing something on Windows
+:penguin: when fixing something on Linux
 
-🐛 (:bug:) when fixing a bug
+:apple: when fixing something on macOS
 
-🔥 (:fire:) when removing code or files
+:checkered_flag: when fixing something on Windows
 
-💚 (:green_heart:) when fixing the CI build
+:bug: when fixing a bug
 
-✅ (:white_check_mark:) when adding tests
+:fire: when removing code or files
 
-🔒 (:lock:) when dealing with security
+:green_heart: when fixing the CI build
 
-⬆️ (:arrow_up:) when upgrading dependencies
+:white_check_mark: when adding tests
 
-⬇️ (:arrow_down:) when downgrading dependencies
+:lock: when dealing with security
 
-👕 (:shirt:) when removing linter warnings
+:arrow_up: when upgrading dependencies
+
+:arrow_down: when downgrading dependencies
+
+:shirt: when removing linter warnings
 
 #### JavaScript Styleguide
 
