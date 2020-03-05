@@ -9,37 +9,37 @@ WIP
 - When only changing documentation, include [ci skip] in the commit title
 - Consider starting the commit message with an applicable emoji:
 
-✏ :pencil: when improving the format/structure of the code
+✏ (:pen:) when improving the format/structure of the code
 
-🐎 :racehorse: when improving performance
+🐎 (:racehorse:) when improving performance
 
-🚱 :non-potable_water: when plugging memory leaks
+🚱 (:non-potable_water:) when plugging memory leaks
 
-📝 :memo: when writing docs
+📝 (:memo:) when writing docs
 
-🐧 :penguin: when fixing something on Linux
+🐧 (:penguin:) when fixing something on Linux
 
-🍎 :apple: when fixing something on macOS
+🍎 (:apple:) when fixing something on macOS
 
-🏁 :checkered_flag: when fixing something on Windows
+🏁 (:checkered_flag:) when fixing something on Windows
 
-🐛 :bug: when fixing a bug
+🐛 (:bug:) when fixing a bug
 
-🔥 :fire: when removing code or files
+🔥 (:fire:) when removing code or files
 
-💚 :green_heart: when fixing the CI build
+💚 (:green_heart:) when fixing the CI build
 
-✅ :white_check_mark: when adding tests
+✅ (:white_check_mark:) when adding tests
 
-🔒 :lock: when dealing with security
+🔒 (:lock:) when dealing with security
 
-⬆️ :arrow_up: when upgrading dependencies
+⬆️ (:arrow_up:) when upgrading dependencies
 
-⬇️ :arrow_down: when downgrading dependencies
+⬇️ (:arrow_down:) when downgrading dependencies
 
-👕 :shirt: when removing linter warnings
+👕 (:shirt:) when removing linter warnings
 
-JavaScript Styleguide
+#### JavaScript Styleguide
 
 All JavaScript must adhere to  [JavaScript Standard Style](https://standardjs.com "JavaScript Standard Style").
 
