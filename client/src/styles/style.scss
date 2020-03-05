@@ -3,6 +3,8 @@
 @import "colors";
 @import "mixins";
 
+@import "../pages/AuthPage/authPage";
+
 .container {
   width: 1200px;
   margin:  auto;
@@ -166,66 +168,5 @@ caption {
 
 // AuthPage styles
 
-.auth {
-  display: flex;
-}
-
-.auth__login {
-  // background-color: $primary;
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.auth__info {
-  width: 50%;
-  height:100vh;
-}
-
-.auth__card {
-  background: #fff;
-  border: 1px black solid;
-  width: 200px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 6px 7px 5px -2px rgba(0,0,0,0.45);
-   input {
-     margin-top: 40px;
-     border:none;
-     border-bottom: 1px #212121 solid;
-   }
-}
-
-.auth__buttons {
-  margin-top: 20px;
-   button {
-     @include button;
-     &:first-child {
-       margin-right: 20px;
-     }
-   }
-}
-
-.auth__buttons-login {
-  background-color: #00e676;
-  margin-right: 10px;
-  &:hover, &:focus {
-    background-color: #69f0ae;
-  }
-}
-
-.auth__buttons-signin {
-  background-color: #ff8f00;
-  &:hover,  &:focus  {
-    background-color: #ffa32e;
-  }
-}
 
 

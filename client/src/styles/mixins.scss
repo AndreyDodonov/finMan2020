@@ -1,3 +1,25 @@
+@import "colors";
+// types
+
+@mixin fm-h2 {
+  font-family: Oswald, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4F4F4F;
+}
+
+@mixin fm-h3 {
+  font-family: Oswald, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+
 // buttons
 @mixin button__ok {
   background-color: #388e3c;
@@ -7,9 +29,9 @@
 }
 
 @mixin button {
-  padding: 10px;
+  padding: 3px;
   border: none;
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 // inputs

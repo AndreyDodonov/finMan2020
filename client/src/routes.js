@@ -1,6 +1,6 @@
 import React from "react";
 import IncomePage from "./pages/IncomePage/IncomePage";
-import {AuthPage} from "./pages/AuthPage";
+import {AuthPage} from "./pages/AuthPage/AuthPage";
 import {Switch} from "react-router-dom";
 import {Route} from "react-router-dom";
 import {Redirect} from "react-router-dom";

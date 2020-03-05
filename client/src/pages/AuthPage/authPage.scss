@@ -1,0 +1,87 @@
+@import "../../styles/fonts";
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.auth {
+  display: flex;
+}
+
+.auth__login {
+  width: 454px;
+  background-color: $bg-gray;
+}
+
+.auth__label {
+  margin: 141px 0 130px 50px;
+
+}
+
+.auth__info {
+  height: 100vh;
+}
+
+.auth__card {
+  margin: 0 0 0 50px;
+  // background: #fff;
+  // border: 1px black solid;
+  width: 200px;
+  // height: 250px;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  //justify-content: center;
+  // padding: 10px;
+  // border-radius: 5px;
+  // box-shadow: 6px 7px 5px -2px rgba(0,0,0,0.45);
+  input {
+    // margin-top: 40px;
+    //border:none;
+    //border-bottom: 1px #212121 solid;
+    // background: transparent;
+    @include fm-h2;
+    width: 353px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #333333;
+    margin-bottom: 8px;
+    padding-left: 5px;
+  }
+}
+
+.auth__buttons {
+  margin-top: 20px;
+  width: 300px;
+  button {
+    @include button;
+    width: 100px;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}
+
+.auth__buttons-login {
+  background-color: $btn-blue;
+  margin-right: 10px;
+  @include fm-h2;
+
+  &:hover, &:focus {
+    background-color: $btn-blue-hover;
+  }
+}
+
+.auth__buttons-signin {
+  background-color: #f7900c;
+  @include fm-h2;
+  &:hover, &:focus {
+    background-color: #ffa32e;
+  }
+}
+
+.auth__sign {
+  margin: 300px auto 0;
+  width: 300px;
+  h2 {
+    @include fm-h2;
+  }
+}

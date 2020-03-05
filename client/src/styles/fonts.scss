@@ -52,3 +52,12 @@
   url('../fonts/oswald-v31-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
   url('../fonts/oswald-v31-cyrillic_latin-700.svg#Oswald') format('svg'); /* Legacy iOS */
 }
+
+h1 {
+  font-family: Oswald, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 71px;
+  color: #4F4F4F;
+}
